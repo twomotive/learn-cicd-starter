@@ -20,6 +20,6 @@ jobs:
 
       - name: Clear Go cache
         run: go clean -modcache
-        
+
       - name: Go tests
-        run: go test ./...
+        run: go test -cover ./...
