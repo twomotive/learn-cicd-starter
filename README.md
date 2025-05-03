@@ -1,4 +1,4 @@
-![badge](https://github.com/twomotive/learn-cicd-starter/actions/workflows/ci/badge.svg)
+![badge](https://github.com/twomotive/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
