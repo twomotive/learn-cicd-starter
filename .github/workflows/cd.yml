@@ -57,7 +57,7 @@ jobs:
     
     - name: Run Database Migrations # Adımı açıklayıcı yapın
       env:
-        DB_CONNECTION_STRING: ${{ secrets.DATABASE_URL }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
         
       run: ./scripts/migrateup.sh
 
